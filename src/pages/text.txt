@@ -126,4 +126,55 @@ body {
   .card-desc {
     font-size: 1rem;
   }
-}
+}//<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Backgrind</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li>about</li>
+        <li>services</li>
+        <li>projects</li>
+        <li>contact</li>
+        <li>blog</li>
+      </ul>
+    </nav>
+
+    <div class="hero-overlay">
+      <h1 class="hero-title">anime.com</h1>
+    </div>
+  </section>
+
+  <!-- Featured Cards -->
+  <section class="cards-section">
+    <div class="cards-grid">
+      <div class="card">
+        <p class="card-title">delicious food</p>
+        <p class="card-desc">Grilled chicken</p>
+      </div>
+      <div class="card">
+        <p class="card-title">delicious food</p>
+        <p class="card-desc">Grilled chicken</p>
+      </div>
+      <div class="card">
+        <p class="card-title">delicious food</p>
+        <p class="card-desc">Grilled chicken</p>
+      </div>
+      <div class="card">
+        <p class="card-title">delicious food</p>
+        <p class="card-desc">Grilled chicken</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+
